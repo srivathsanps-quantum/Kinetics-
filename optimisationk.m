@@ -1,7 +1,7 @@
-dataset1 = xlsread('Highercollisions-phenylvinoxydecomp-updated -14Sep.xlsx','BZFstarting','A89:F95') %Name of excel file and their sheet. 
+dataset1 = xlsread('Highercollisions-phenylvinoxydecomp-updated -14Sep.xlsx','BZFstarting','A89:F95')   %Name of excel file and their sheet. 
  
-           T=dataset1(:,1); %Temperature input from the excel sheet
-           Kinput=dataset1(:,3); %Rate coefficients input from the excel sheet
+           T=dataset1(:,1);    %Temperature input from the excel sheet
+           Kinput=dataset1(:,3);   %Rate coefficients input from the excel sheet
            
 kunit=input('Enter the unit, type 1 for molecules or 0 if its in moles :'); % Unit of k whether in moles or molecules
 if kunit == 1    %If the k values are in molecules
