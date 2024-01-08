@@ -1,4 +1,4 @@
- dataset1 = xlsread('Highercollisions-phenylvinoxydecomp-updated -14Sep.xlsx','BZFstarting','A89:F95')
+ dataset1 = xlsread('Highercollisions-phenylvinoxydecomp-updated -14Sep.xlsx','BZFstarting','A89:F95') % This command is to read the data from the excel sheet. Share you file name along with sheet name
 
              
            T=dataset1(:,1);
